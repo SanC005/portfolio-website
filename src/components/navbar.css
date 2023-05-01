@@ -3,28 +3,67 @@ html{
 }
 ul{
     list-style: none;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;    
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 .main{
     width: 100%;
     height: 100rem;
     display: grid;
-    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+    grid-template-columns:1fr 2fr 1fr;
+    background-color: #AFD3E2;
 }
 .logo{
     display: grid;
-    background-color: blue;
-    grid-column: 2/3;
+    background-color: #05BFDB;
+    grid-column: 1/2;
     justify-content: space-around;
     align-items: center;
     height: 10rem;
+    font-size: 2rem;
 }
 .menu{
     display: grid;
+    grid-column: 2/3;
+}
+.menu-ul{
+    height: 10rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    background-color: #05BFDB;
+}
+.social{
+    display: grid;
     grid-column: 3/4;
 }
-.menu ul{
+.social-ul{
     height: 10rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    background-color: #05BFDB;
+}
+a:hover{
+    color: black;
+}
+.menu ul:hover{
+    background-color:black;
 }
