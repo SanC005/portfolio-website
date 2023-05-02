@@ -16,32 +16,37 @@ const Navbar = () => {
                 <ul className='menu-ul'>
                     <li>
                         <a href="#home">
-                        Home
+                        <h3>Home</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#projects">
+                        <h3>Projects</h3>
+                        </a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#about"><h3>About</h3></a>
+                    </li>
+                    <li>
+                        <a href="#contact"><h3>Contact</h3></a>
                     </li>
                 </ul>
             </div>
             <div className="social">
                 <ul className='social-ul'>
-                    <li>
-                        <a href="#github">
-                        <FaGithub />
+                    <li >
+                        <a href="#github" className='icons'>
+                        <FaGithub size={30}/>
                         </a>
                     </li>
-                    <li>
-                        <a href="#linkedin">
-                        <FaLinkedin/>
+                    <li >
+                        <a href="#linkedin" className='icons'>
+                        <FaLinkedin size={30}/>
                         </a>
                     </li>
-                    <li>
-                        <a href="#email">
-                            <AiOutlineMail/>
+                    <li >
+                        <a href="#email" className='icons'>
+                            <AiOutlineMail size={30}/>
                         </a>
                     </li>
                 </ul>
