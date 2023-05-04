@@ -1,0 +1,13 @@
+:root{
+    --primary:#9cf2f7;
+    --secondary:#146C94;
+}
+.home-content{
+    background-color: var(--primary);
+}
+.heading{
+    font-weight: bold;
+    font-size:3rem;
+    color: var(--secondary);
+}
+

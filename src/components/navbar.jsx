@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{}  from 'react';
 import "./navbar.css";
 // import {GitHubIcon} from '@mui/icons-material/GitHub';
 import {FaGithub,FaLinkedin,} from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+// import {GiHamburgerMenu} from "react-icons/gi-hamburger-menu";
+import MenuIcon from '@mui/icons-material/Menu';
+// import Drawer from '@mui/material/Drawer';
 const Navbar = () => {
+    // const [showMenu,setShowMenu] = useState(false);
     return(
     <>
         <nav className="main">
@@ -46,11 +50,17 @@ const Navbar = () => {
                     </li>
                     <li >
                         <a href="#email" className='icons'>
-                            <AiOutlineMail size={30}/>
+                            <AiOutlineMail size={30} />
                         </a>
                     </li>
                 </ul>
+                <div className="hamburger">
+                <a href="#a" >
+                    <MenuIcon fontSize='large'/>
+                </a>
+            </div>   
             </div>
+           
         </nav>
     </>
     );

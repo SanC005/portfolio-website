@@ -1,5 +1,5 @@
 html{
-    font-size:62.5%;
+    font-size:40%;
     
 
 }
@@ -41,10 +41,10 @@ a:active{
 
 .main{
     width: 100%;
-    height: 100rem;
+    /* height: 100rem; */
     display: grid;
     grid-template-columns:1fr 3fr 1fr;
-    background-color: #AFD3E2;
+    background-color: #05BFDB;
 }
 .logo{
     display: grid;
@@ -63,7 +63,7 @@ a:active{
     height: 10rem;
     align-items: center;
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 2rem;
     background-color: #05BFDB;
 }
 .social{
@@ -85,7 +85,11 @@ a:active{
     grid-column: 2/3;
 }
 .menu-li:hover{
-    background-color: #09DF0B;
+    /* background-color: #09DF0B; */
+}
+.hamburger{
+    display: none;
+    align-self: center;
 }
 @media(max-width:768px){
     .main{
@@ -98,19 +102,29 @@ a:active{
     .social-ul li{
       display: none;
     }
+    .hamburger{
+        display: none;
+    }
 }
-@media(max-width:440px){
+@media(max-width:600px){
     .main{
         /* height: 80rem; */
-        grid-template-columns: 1fr 2fr;
+        width: 100%;
+        grid-template-columns: 1fr 2fr 1fr;
     }
     .menu-ul li{
       display: none;
     }
+    .social{
+        height:7rem;
+        display:flex;
+    }
+    .social-ul{
+        height: 0;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
 }
-/* li:hover{
-    color: black;
-}
-.menu li:hover{
-    background-color:#09DF0B;
-} */
