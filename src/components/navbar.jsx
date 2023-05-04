@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <ul className='menu-ul'>
-                    <li>
+                    <li className="menu-li">
                         <a href="#home">
                         <h3>Home</h3>
                         </a>

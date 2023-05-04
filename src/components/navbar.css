@@ -43,7 +43,7 @@ a:active{
     width: 100%;
     height: 100rem;
     display: grid;
-    grid-template-columns:1fr 2fr 1fr;
+    grid-template-columns:1fr 3fr 1fr;
     background-color: #AFD3E2;
 }
 .logo{
@@ -73,7 +73,7 @@ a:active{
 .social-ul{
     height: 10rem;
     display:grid;
-    grid-template-columns: 2fr repeat(3,1fr);
+    grid-template-columns: 2fr repeat(3,1fr) 1fr;
     align-items: center;
     justify-content: flex-end;
     background-color: #05BFDB;
@@ -84,7 +84,30 @@ a:active{
 .social-ul li:first-child{
     grid-column: 2/3;
 }
-
+.menu-li:hover{
+    background-color: #09DF0B;
+}
+@media(max-width:768px){
+    .main{
+      /* height: 80rem; */
+      grid-template-columns: 1fr 3fr;
+    }
+    /* .menu-ul li{
+      display: none;
+    } */
+    .social-ul li{
+      display: none;
+    }
+}
+@media(max-width:440px){
+    .main{
+        /* height: 80rem; */
+        grid-template-columns: 1fr 2fr;
+    }
+    .menu-ul li{
+      display: none;
+    }
+}
 /* li:hover{
     color: black;
 }
