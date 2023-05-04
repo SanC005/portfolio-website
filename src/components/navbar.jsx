@@ -29,7 +29,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#about"><h3>About</h3></a>
+                        <a href="/about"><h3>About</h3></a>
                     </li>
                     <li>
                         <a href="#contact"><h3>Contact</h3></a>
@@ -39,12 +39,12 @@ const Navbar = () => {
             <div className="social">
                 <ul className='social-ul'>
                     <li >
-                        <a href="#github" className='icons'>
+                        <a href="#https://github.com/SanC005" className='icons'>
                         <FaGithub size={30}/>
                         </a>
                     </li>
                     <li >
-                        <a href="#linkedin" className='icons'>
+                        <a href="https://www.linkedin.com/in/sandeep-chiluvuru-2b6069211/" className='icons'>
                         <FaLinkedin size={30}/>
                         </a>
                     </li>

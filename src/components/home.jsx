@@ -1,9 +1,5 @@
 import React from "react";
 import "./home.css";
-// import homeLogo from "../../Assets/home-main.svg";
-// import Particle from "../Particle";
-// import Home2 from "./Home2";
-// import Type from "./Type";
 
 function home() {
   return (

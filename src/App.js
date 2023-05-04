@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Home from './components/home';
+import About from './components/about';
 import {
   BrowserRouter as Router,
   Route,
@@ -17,10 +18,7 @@ function App() {
         {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         {/* <Footer /> */}
