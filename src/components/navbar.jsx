@@ -19,12 +19,12 @@ const Navbar = () => {
             <div className="menu">
                 <ul className='menu-ul'>
                     <li className="menu-li">
-                        <a href="#home">
+                        <a href="/">
                         <h3>Home</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#projects">
+                        <a href="/projects">
                         <h3>Projects</h3>
                         </a>
                     </li>
@@ -32,14 +32,14 @@ const Navbar = () => {
                         <a href="/about"><h3>About</h3></a>
                     </li>
                     <li>
-                        <a href="#contact"><h3>Contact</h3></a>
+                        <a href="/contact"><h3>Contact</h3></a>
                     </li>
                 </ul>
             </div>
             <div className="social">
                 <ul className='social-ul'>
                     <li >
-                        <a href="#https://github.com/SanC005" className='icons'>
+                        <a href="https://github.com/SanC005" className='icons'>
                         <FaGithub size={30}/>
                         </a>
                     </li>
