@@ -1,7 +1,5 @@
 html{
     font-size:40%;
-    
-
 }
 h3{
     /* font-family: 'Brush Script MT', cursive; */
@@ -83,9 +81,6 @@ a:active{
 }
 .social-ul li:first-child{
     grid-column: 2/3;
-}
-.menu-li:hover{
-    /* background-color: #09DF0B; */
 }
 .hamburger{
     display: none;
