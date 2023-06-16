@@ -9,7 +9,8 @@ function type() {
           "Computer Science Student",
           "Web Developer",
           "C++ Coder",
-          "Google Cloud Practitioner",
+          "AWS Cloud Practitioner",
+          "AI-ML Developer"
         ],
         autoStart: true,
         loop: true,

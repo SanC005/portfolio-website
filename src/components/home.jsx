@@ -2,7 +2,8 @@ import React from "react";
 import "./home.css";
 import About from "./about";
 import Type from "./type";
-
+import Project from "./project";
+import Contact from "./contact";
 function home() {
   return (
     <section className="sec-home">
@@ -20,6 +21,8 @@ function home() {
         </div>
       </div>
       <About/>
+      <Project/>
+      <Contact/>
     </section>
     
   );

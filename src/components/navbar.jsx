@@ -8,10 +8,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 // import Drawer from '@mui/material/Drawer';
 const Navbar = () => {
   // const [showMenu,setShowMenu] = useState(false);
+  const resume = "https://www.google.com"
   return (
     <>
       <nav className="main">
-          <a href="https://www.google.com">
+          <a href={resume}>
         <div className="logo">
             <FaFile size={30} style={{ color: "#FFFFFF" }} />
             <h3>My Resume</h3>

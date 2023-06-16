@@ -3,40 +3,20 @@ import "./about.css";
 
 function about() {
   return (
-    <section className="sec-home">
-      <div className="home-section">
-        <div className="about-row">
-        <h2>About Myself</h2>
-          <h3>
+    <section className="sec-about">
+      <div className="info-section">
+        <h2 className="title">About Myself</h2>
+          <h3 className="desc">
             I am pursuing my B.Tech in Computer Science from VIT Bhopal<br /> while
             learning new skills and knowledge, <br/>trying to satisfy my ever-growing
             curiosity.
           </h3>
         </div>
-
-        <div className="skills">
-          <div className="skill-row">
-            <h2>My Skills.</h2>
-            <h3>Web Development</h3>
-            <h4>
-              Skills include HTML,CSS and JavaScript.
-              <br /> Libraries and Frameworks such as JQuery and Bootstrap.
-              <br /> Made this personal website
-            </h4>
-          </div>
-        </div>
-        <div class="skill-row">
-          <h3>App Development</h3>
-          <h4>
-            Skills include Java and Firebase.
-            <br />
-            I have created application such as Quiz App - used to conduct a test
-            of multiple choice questions
-            <br />
-            and Club registration App - used to register for events conducted by
-            the club.
-          </h4>
-        </div>
+      <div class="tech">
+      <h2 className="title">My Skills</h2>
+      <p>🛠️ Languages and Tools:</p>
+      <p className="icons"
+      align="center"><a href="https://github.com/SanC005"><img className="icon" src="https://skillicons.dev/icons?i=react,nextjs,cpp,py,java,html,css,tailwind,js,nodejs,expressjs,mongodb,aws,gcp,vscode,androidstudio,tensorflow,flask&perline=9" alt="My Skills"/></a></p>
       </div>
     </section>
   );
