@@ -1,11 +1,9 @@
 .sec-project{
     font-size:2.5rem;
-    height: 100rem;
+    height: 108rem;
+    width: 100%;
     background-color: var(--three); 
-}
-.info-section{
-    padding:0rem;
-    line-height: 5rem;
+    
 }
 h2{
     font-size:4rem;
@@ -22,6 +20,8 @@ color:var(--four)
 }
 .title{
 color: var(--four);
+text-align: center;
+width: 100%;
 }
 h4{
     font-size:2.8rem;
@@ -29,3 +29,26 @@ h4{
     font-family:  'Trebuchet MS',Arial, sans-serif;
     color: var(--four)
 }
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color:var(--four);
+    background-color: var(--six);
+    border: 2px solid black;
+    margin: 1rem;
+}
+.name{
+    width: 30%;
+}
+.description{
+    width: 40%;
+}
+.code{
+    width: 30%;
+}
+

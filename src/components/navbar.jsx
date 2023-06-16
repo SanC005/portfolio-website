@@ -1,5 +1,6 @@
 import "./navbar.css";
 import React from "react";
+// import { useState,useEffect } from "react";
 // import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 // import {GitHubIcon} from '@mui/icons-material/GitHub';
 import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
@@ -12,6 +13,33 @@ const Navbar = () => {
   const resume = "https://www.google.com";
   // const [toggle, setToggle] = useState(false);
   // const handleToggle = () => setToggle(!toggle);
+
+  // const [show, setShow] = useState(true);
+  // const [lastScrollY, setLastScrollY] = useState(0);
+
+  // const controlNavbar = () => {
+  //   if (typeof window !== 'undefined') { 
+  //     if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
+  //       setShow(false); 
+  //     } else { // if scroll up show the navbar
+  //       setShow(true);  
+  //     }
+
+  //     // remember current page location to use in the next move
+  //     setLastScrollY(window.scrollY); 
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     window.addEventListener('scroll', controlNavbar);
+
+  //     // cleanup function
+  //     return () => {
+  //       window.removeEventListener('scroll', controlNavbar);
+  //     };
+  //   }
+  // }, [lastScrollY]);
   return (
     <div>
       <nav className="main">

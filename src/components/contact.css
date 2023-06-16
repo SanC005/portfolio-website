@@ -1,12 +1,8 @@
-:root {
---one: #0F172A;
---two: #7477FF;
---three: #112a60;
---four: #ffffff;
-}
+
 .sec-contact{
     font-size:2.5rem;
-    background-color: var(--three); 
+    background-color: var(--one); 
+    height:20rem;
 }
 .info-section{
     padding:0rem;
@@ -35,18 +31,7 @@ h4{
     color: var(--four)
 }
 
-.tech{
-text-align: center;
-margin: 5rem;
-font-size: 150%;
-font-weight: bold;
-color:var(--four)
-/* justify-content: center;
-align-items: center; */
-}
-.icons{
-margin:5rem;
-}
-.icon{
-height: 30rem;
+.social-ul{
+    background-color: var(--one);
+    
 }

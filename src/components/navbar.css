@@ -39,10 +39,12 @@ a:active{
 
 .main{
     width: 100%;
+    position: fixed;
     /* height: 100rem; */
     display: grid;
     grid-template-columns:1fr 3fr 1fr;
     /* background-color: #05BFDB; */
+    z-index: 2;
 }
 .logo{
     display: flex;
