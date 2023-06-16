@@ -2,31 +2,34 @@
     --primary:#9cf2f7;
     --secondary:#146C94;
 }
+
 .home-content{
     background-color: lightblue;
-    /* background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-
-
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    height: 110rem;
 }
 .heading{
     
     display: flex;
     align-items: center;
-    
-    
     margin: 0;
+    font-size: 200%;
 }
 .home-header{
     font-weight: bold;
-    height: 40rem;
-    font-size:3rem;
+    font-size: large;
     padding: 15rem;
-    color: black;
+    margin: 5rem;
+}
+.lottie{
+    margin: 5rem;
 }
 .home-type{
     display: flex;
     align-self: center;
     color: purple;
+    font-size: 150%;
 }
 
