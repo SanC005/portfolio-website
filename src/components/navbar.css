@@ -4,7 +4,7 @@ html{
 h3{
     /* font-family: 'Brush Script MT', cursive; */
     font-family: 'Trebuchet MS', sans-serif;
-    color: darkblue;
+    color: #7477FF;
 
 }
 ul{
@@ -45,11 +45,12 @@ a:active{
     background-color: #05BFDB;
 }
 .logo{
-    display: grid;
-    background-color: #05BFDB;
+    display: flex;
+    background: #0F172A;
     grid-column: 1/2;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-align: left;
     height: 10rem;
     font-size: 2rem;
 }
@@ -62,7 +63,7 @@ a:active{
     align-items: center;
     text-transform: capitalize;
     font-size: 2rem;
-    background-color: #05BFDB;
+    background: #0F172A;
 }
 .social{
     display: grid;
@@ -74,7 +75,7 @@ a:active{
     grid-template-columns: 2fr repeat(3,1fr) 1fr;
     align-items: center;
     justify-content: flex-end;
-    background-color: #05BFDB;
+    background: #0F172A;
 }
 .social-ul li{
     size: 5.8rem;
