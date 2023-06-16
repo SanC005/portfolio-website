@@ -10,7 +10,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 // import Drawer from '@mui/material/Drawer';
 const Navbar = () => {
   // const [showMenu,setShowMenu] = useState(false);
-  const resume = "https://www.google.com";
+  const resume =
+    "https://drive.google.com/file/d/1tz1bjNXemH_zyrF2wPGIX1eNvgneyM16/view?usp=sharing";
+  const mailtoHref =
+    "mailto:sandeepcs005@gmail.com?subject=SendMail&body=Description";
   // const [toggle, setToggle] = useState(false);
   // const handleToggle = () => setToggle(!toggle);
 
@@ -18,15 +21,15 @@ const Navbar = () => {
   // const [lastScrollY, setLastScrollY] = useState(0);
 
   // const controlNavbar = () => {
-  //   if (typeof window !== 'undefined') { 
+  //   if (typeof window !== 'undefined') {
   //     if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
-  //       setShow(false); 
+  //       setShow(false);
   //     } else { // if scroll up show the navbar
-  //       setShow(true);  
+  //       setShow(true);
   //     }
 
   //     // remember current page location to use in the next move
-  //     setLastScrollY(window.scrollY); 
+  //     setLastScrollY(window.scrollY);
   //   }
   // };
 
@@ -43,14 +46,12 @@ const Navbar = () => {
   return (
     <div>
       <nav className="main">
-          <a href={resume} target="_blank"
-              without
-              rel="noreferrer">
-        <div className="logo">
+        <a href={resume} target="_blank" without rel="noreferrer">
+          <div className="logo">
             <FaFile size={30} style={{ color: "#FFFFFF" }} />
             <h3>My Resume</h3>
-        </div>
-          </a>
+          </div>
+        </a>
         <div className="menu">
           <ul className="menu-ul">
             <li className="menu-li">
@@ -78,20 +79,29 @@ const Navbar = () => {
         <div className="social">
           <ul className="social-ul">
             <li>
-              <a href="https://github.com/SanC005" className="icons">
+              <a
+                href="https://github.com/SanC005"
+                className="icons"
+                target="_blank"
+                without
+                rel="noreferrer"
+              >
                 <FaGithub size={30} style={{ color: "#FFFFFF" }} />
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/sandeep-chiluvuru-2b6069211/"
+                href="https://www.linkedin.com/in/sanc005/"
+                target="_blank"
+                without
+                rel="noreferrer"
                 className="icons"
               >
                 <FaLinkedin size={30} style={{ color: "#FFFFFF" }} />
               </a>
             </li>
             <li>
-              <a href="#email" className="icons">
+              <a href={mailtoHref} className="icons">
                 <AiOutlineMail size={30} style={{ color: "#FFFFFF" }} />
               </a>
             </li>
@@ -131,7 +141,6 @@ const Navbar = () => {
       {/* <div><button onClick={handleToggle} className="block md:hidden">
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button></div> */}
-      
     </div>
   );
 };

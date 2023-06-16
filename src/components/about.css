@@ -47,3 +47,7 @@ h4{
 .icon{
   height: 30rem;
 }
+.icons{
+  align-items: center;
+  padding: 5%;
+}
