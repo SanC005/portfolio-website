@@ -29,9 +29,13 @@ function home() {
                 
         </div>
       </div>
+      <hr className="line"></hr>
       <About/>
+      <hr className="line"></hr>
       <Project/>
+      <hr className="line"></hr>
       <Contact/>
+      <hr className="line"></hr>
     </section>
     
   );

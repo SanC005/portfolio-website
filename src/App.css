@@ -1,8 +1,16 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
+:root {
+  --prim:#9cf2f7;
+  --sec:#146C94;
+  --one: #0F172A;
+  --two: #7477FF;
+  --three: #112a60;
+  --four: #ffffff;
+  --four: #ffffff;
+  --five: purple;
+}
 .App {
   text-align: center;
 }

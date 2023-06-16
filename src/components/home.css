@@ -1,14 +1,9 @@
-:root{
-    --primary:#9cf2f7;
-    --secondary:#146C94;
-}
-
 .home-content{
-    background-color: lightblue;
+    background-color: var(--prim);
     display: flex;
     justify-content: space-between;
     padding: 5%;
-    height: 110rem;
+    height: 100rem;
 }
 .heading{
     
@@ -29,7 +24,12 @@
 .home-type{
     display: flex;
     align-self: center;
-    color: purple;
+    color: var(--five);
     font-size: 150%;
 }
-
+.line{
+    height:2px;
+    border-width:0;
+    color:var(--two);
+    background-color:var(--two);
+}

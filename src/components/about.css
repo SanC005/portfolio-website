@@ -1,35 +1,37 @@
-:root {
-  --one: #0F172A;
-  --two: #7477FF;
-  --three: #112a60;
-  --four: #ffffff;
-}
 .sec-about{
-    font-size:2.5rem;
+    font-size:300%;
     background-color: var(--three); 
+    height: 110rem;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 }
 .info-section{
     padding:0rem;
-    line-height: 5rem;
 }
 h2{
-    font-size:4rem;
+    /* font-size:4rem; */
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
-    font-size:3rem;
+    /* font-size:3rem; */
     padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida';
 }
 .desc{
-  color:var(--four)
+  color:var(--four);
+  margin: 5rem;
 }
 .title{
   color: var(--four);
+  margin-bottom: 2rem;
+  font-weight: bold;
+  
+  /* font-size: 150%; */
 }
 h4{
-    font-size:2.8rem;
+    /* font-size:2.8rem; */
     padding: 1rem;
     font-family:  'Trebuchet MS',Arial, sans-serif;
     color: var(--four)
@@ -37,16 +39,8 @@ h4{
 
 .tech{
   text-align: center;
-  margin: 5rem;
-  font-size: 150%;
   font-weight: bold;
-  color:var(--four)
-  /* justify-content: center;
-  align-items: center; */
-}
-.icons{
-  margin:5rem;
-}
-.icon{
-  height: 30rem;
+  color:var(--four);
+  justify-content: center;
+  align-items: center;
 }
