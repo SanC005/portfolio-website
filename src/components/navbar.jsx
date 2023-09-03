@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Navbar = () => {
   // const [showMenu,setShowMenu] = useState(false);
   const resume =
-    "https://drive.google.com/file/d/1tz1bjNXemH_zyrF2wPGIX1eNvgneyM16/view?usp=sharing";
+    "https://drive.google.com/file/d/1wKV7w_kyWtevduaE6u9e0EL-zxBfp1Vj/view?usp=sharing";
   const mailtoHref =
     "mailto:sandeepcs005@gmail.com?subject=SendMail&body=Description";
   // const [toggle, setToggle] = useState(false);

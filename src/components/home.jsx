@@ -12,7 +12,7 @@ function home() {
     height: 300,
   };
   return (
-    <section className="sec-page">
+    <section className="sec-page flex flex-col">
       <div className="home-section">
         <div className="home-content">
             <div className="home-header">
@@ -29,13 +29,13 @@ function home() {
                 
         </div>
       </div>
-      <hr className="line"></hr>
+      <hr className=""></hr>
       <About/>
-      <hr className="line"></hr>
+      <hr className=""></hr>
       <Project/>
-      <hr className="line"></hr>
+      <hr className=""></hr>
       <Contact/>
-      <hr className="line"></hr>
+      <hr className=""></hr>
     </section>
     
   );

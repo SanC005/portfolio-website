@@ -9,23 +9,47 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import Preloader from './components/preloader';
+import { useEffect, useRef, useState } from 'react';
 
 function App() {
+  const [loading, setLoading] = useState(false)
+  const isMounted = useRef(false);
+  
+  useEffect(() => {
+    if (!isMounted.current) {
+      setLoading(true)
+      setTimeout(() => setLoading(false), 3000)
+      isMounted.current = true;
+    }
+  }, [])
+
   return (
-    <Router>
-      {/* <Preloader load={load} /> */}
-      <div className="App">
-        <Navbar />
-        {/* <ScrollToTop /> */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
-          {/* <Route path="/project" element={<Project />} /> */}
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
-        {/* <Footer /> */}
-      </div>
-    </Router>
+    <div>
+
+
+        {/* <Preloader load={load} /> */}
+        <Router>
+          <div className="App">
+        {loading === false ? (
+          <div>
+
+            <Navbar />
+            {/* <ScrollToTop /> */}
+            <Routes>
+              <Route path="/" element={<Home />} />
+              {/* <Route path="/about" element={<About />} /> */}
+              {/* <Route path="/project" element={<Project />} /> */}
+              <Route path="*" element={<Navigate to="/"/>} />
+            </Routes>
+            {/* <Footer /> */}
+          </div>
+          ):(
+            <Preloader/>
+            )}
+            </div>
+          </Router>
+    </div>
   )
 }
 
